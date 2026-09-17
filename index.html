@@ -148,8 +148,8 @@ button:hover {
     <div>🌎 Teach me a word or phrase from your language</div>
     <div>💌 Girl talk — crushes, someone you like, or anything else</div>
   </div>
+<form action="https://formspree.io/f/xljdednk" method="POST">
 
-  <form action="https://formspree.io/f/xljdednk" method="POST">
   <textarea
     name="message"
     placeholder="Tell me anything..."
@@ -157,10 +157,25 @@ button:hover {
     required
   ></textarea>
 
+  <p style="margin: 18px 0 10px; font-size: 13px; line-height: 1.6;">
+    If you’d like a reply, leave your email below — I’ll reply to you.<br>
+    Your email will only be used to reply to your message and for nothing else.
+  </p>
+
+  <input
+    type="email"
+    name="email"
+    placeholder="Your email (optional)"
+    aria-label="Your email (optional)"
+    style="display: block; width: 100%; border: 0; border-bottom: 1px solid #cfcfcf; outline: none; padding: 12px 0 18px; background: transparent; color: #111111; font: 16px/1.7 Arial, Helvetica, sans-serif;"
+  >
+
   <button type="submit">
     SEND →
   </button>
+
 </form>
+
 
 </main>
 
